@@ -1,0 +1,50 @@
+.header {
+  display: flex;
+  position: relative;
+  align-items: center;
+  grid-area: header;
+  height: 86px;
+
+  padding: 0px;
+
+  .logo {
+    width: 126px;
+    height: auto;
+  }
+  .main-nav-list {
+    vertical-align: middle;
+    flex: 1 1 0%;
+    .ant-menu.ant-menu-dark .ant-menu-item-selected.navItem {
+      background-color: #3e9eda;
+    }
+    .ant-menu {
+      padding-left: 5px;
+      font-size: 16px;
+    }
+    .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item:hover::after,
+    .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu:hover::after,
+    .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-active::after,
+    .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-active::after,
+    .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-open::after,
+    .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-open::after,
+    .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-selected::after,
+    .ant-menu-horizontal:not(.ant-menu-dark)
+      > .ant-menu-submenu-selected::after {
+      border-bottom: 4px solid #3e9eda;
+    }
+  }
+  .signup-nav {
+    width: 292px;
+    text-align: right;
+    vertical-align: middle;
+    .navButton {
+      margin: auto 10px;
+    }
+    .ant-btn-text {
+      color: #3e9eda;
+    }
+    .ant-btn-primary {
+      background-color: #3e9eda;
+    }
+  }
+}
