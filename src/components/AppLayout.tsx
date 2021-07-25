@@ -10,7 +10,7 @@ function AppLayout({ children }: { children: any }) {
       <div className="Nav">
         <Header />
       </div>
-      <MainPhoto />
+      {children}
       <Footer />
     </div>
   );

@@ -85,6 +85,7 @@ video {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
+  width: 100%;
 }
 /* HTML5 display-role reset for older browsers */
 article,
@@ -107,6 +108,7 @@ body {
   font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto,
     Helvetica Neue, sans-serif;
   line-height: 20px;
+  width: 100%;
 }
 ol,
 ul {
@@ -137,35 +139,13 @@ a {
   cursor: pointer;
   text-decoration: none;
 }
-.a11yHidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-  margin: -1px;
-  clip: rect(0, 0, 0, 0);
-}
-#modal {
-  display: none; /* ui 작업하는 동안에는 display: none 적용 */
-  background: rgba(0, 0, 0, 0.25);
-  position: fixed;
-  left: 0;
-  top: 0;
-  height: 100%;
-  width: 100%;
-}
-div.infoBox {
-  overflow-x: hidden;
-  overflow-y: hidden;
-  height: 430px;
-  position: relative;
-  top: 1.5rem;
-}
+
 html {
   font-size: 10px;
 }
-@media screen and (max-width: 768px) {
-  html {
-    font-size: 10px;
-  }
-}
+
+// @media screen and (max-width: 768px) {
+//   html {
+//     font-size: 10px;
+//   }
+// }
