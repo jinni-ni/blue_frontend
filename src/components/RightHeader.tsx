@@ -10,9 +10,6 @@ import {
 } from "@ant-design/icons";
 import "./RightHeader.scss";
 
-const SubMenu = Menu.SubMenu;
-const MenuItemGroup = Menu.ItemGroup;
-
 class RightMenu extends Component {
   render() {
     return (
